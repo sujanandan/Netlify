@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+.mt-90{
+    margin-top: 90px;
+}
+:root {
+    --pri-color: #651FFF;
+}
+.banner, .main-image, .lighting-fast,.privacy-section{
+
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.pri-color{
+    color: var(--pri-color);
+}
+.btn-radius-12{
+    border-radius: 12px;
+}
+.lighting-fast-wrapper > div >div >div{
+  padding: 30px;
+  border-radius: 24px;
+  color: #ffffff;
+  background-color: var(--pri-color);
+}
+.feature-icon-circle {
+    width: 54px;
+    height: 54px;
+    min-width: 54px;
+    border-radius: 50%;
+    background-color: #f0ebff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feature-icon {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+.privacy-section {
+    background: linear-gradient(
+        to bottom,
+        #f5f5f5 0%,
+        #ffffff 100%
+    );
+}
+.bord-css1{
+  /* border-bottom: 2px dashed #E2E4E9; */
+    /* padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px; */
+}
+.overlap-left {
+    margin-left: 0;
+}
+.how-img{
+  /* display: block;  */
+  /* width: 18%; */
+ text-align: center;
+ margin-bottom: 10px;
+}
+@media (min-width: 992px) {
+    .overlap-left {
+        margin-left: -60px;
+    }
+}
+    .inbound-badge {
+    background-color: #ede9fe; 
+    color: var(--pri-color);   
+    font-size: 0.8rem;
+}
+
+
+
+@media (min-width: 768px) {
+    .w-md-auto {
+        width: auto !important;
+    }
+}
+
+@media (min-width: 992px) {
+.line-wrapper{
+  position: relative;
+  /* text-align: center;
+  justify-content: center; */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+}
+.line{
+  position: absolute;
+  top:18%;
+  left: 75%
+}
+
+}
+@media (max-width: 992px) {
+  .line{
+  /* position: absolute; */
+
+  rotate:90deg;
+   margin-top: 100px;
+}
+.line-wrapper{
+  margin-bottom: 100px;
+}
+}
